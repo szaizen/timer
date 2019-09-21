@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    a {
+      text-decoration: none;
+    }
+  }
+}
