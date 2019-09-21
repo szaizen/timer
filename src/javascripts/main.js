@@ -1,5 +1,5 @@
-const insertTime = () => {
+const insertTestText = () => {
   const timeText = document.querySelector("#time");
-  timeText.textContent = "2019-09-12";
+  timeText.textContent = "created_at: 2019-09-21";
 }
-insertTime();
+insertTestText();
