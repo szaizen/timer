@@ -5,33 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Boilerplate with parcel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./stylesheets/main.scss">
     <script src="./javascripts/main.js" defer></script>
   </head>
   <body>
     <h1>タイマー</h1>
-    <div>
+    <div class="timer_table">
+     <table class="table">
+       <thead>
+         <tr>
+           <th scope="col">#</th>
+           <th scope="col">Timer</th>
+           <th scope="col">button</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <th scope="row">1</th>
+           <td id="timer1">60</td>
+           <td id="timerstart1">Start</td>
+         </tr>
+         <tr>
+           <th scope="row">2</th>
+           <td id="timer2">90</td>
+         </tr>
+         <tr>
+           <th scope="row">3</th>
+           <td id="timer3">60</td>
+         </tr>
+       </tbody>
+     </table>
 
-  <div class="card_list">
-    <section class="card">
-      <input type="button" value="タイマー開始" id="timerstart1" class="timerstart"/>
-      <button id="addseconds1" class="addseconds">10秒追加</button>
-      <h2>商品１</h2>
-      <div class="timer" id="timer1">60</div>
-    </section>
-    <section class="card">
-      <input type="button" value="タイマー開始" id="timerstart2" class="timerstart"/>
-      <button id="addseconds2" class="addseconds">10秒追加</button>
-      <h2>商品２</h2>
-      <div class="timer" id="timer2">40</div>
-    </section>
-    <section class="card">
-      <input type="button" value="タイマー開始" id="timerstart3" class="timerstart"/>
-      <button class="addseconds" id="addseconds3">10秒追加</button>
-      <h2>商品３</h2>
-      <div class="timer" id="timer3">100</div>
-    </section>
-  </div>
 
     </div>
   </body>
