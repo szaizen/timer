@@ -9,11 +9,30 @@
     <script src="./javascripts/main.js" defer></script>
   </head>
   <body>
-    <h1>This is a Boilerplate with Parcel</h1>
+    <h1>タイマー</h1>
     <div>
-      <p><a href="#">GitHub</a></p>
-      <p><a href="https://parceljs.org/">Parcel Document</a></p>
-      <p id="time"></p>
+
+  <div class="card_list">
+    <section class="card">
+      <input type="button" value="タイマー開始" id="timerstart1" class="timerstart"/>
+      <button id="addseconds1" class="addseconds">10秒追加</button>
+      <h2>商品１</h2>
+      <div class="timer" id="timer1">60</div>
+    </section>
+    <section class="card">
+      <input type="button" value="タイマー開始" id="timerstart2" class="timerstart"/>
+      <button id="addseconds2" class="addseconds">10秒追加</button>
+      <h2>商品２</h2>
+      <div class="timer" id="timer2">40</div>
+    </section>
+    <section class="card">
+      <input type="button" value="タイマー開始" id="timerstart3" class="timerstart"/>
+      <button class="addseconds" id="addseconds3">10秒追加</button>
+      <h2>商品３</h2>
+      <div class="timer" id="timer3">100</div>
+    </section>
+  </div>
+
     </div>
   </body>
 </html>
